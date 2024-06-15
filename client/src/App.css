@@ -1,0 +1,48 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Définissez le style pour le titre h1 dans .App-header */
+.App-header h1 {
+  margin: 0;
+}
+
+/* Ajoutez un style pour le contenu principal */
+.App-main {
+  padding: 20px;
+}
+
+/* Style pour les boutons */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style pour les boutons au survol */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style pour les boutons au clic */
+button:active {
+  background-color: #0056b3;
+}
